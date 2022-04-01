@@ -40,6 +40,6 @@ Test project contains unit and integration tests. The majority of tests are writ
 #### API
 
 Example GET request: http://localhost:5179/routes/?source=DME,UUDD&destination=FCO,LIRF (when debugging from VS) or
-http://localhost:5000/routes/?source=DME,UUDD&destination=FCO,LIRF (wwhen starting exe from bin folder).
+http://localhost:5000/routes/?source=DME,UUDD&destination=FCO,LIRF (when starting exe from bin folder).
 Tested GET request with Postman.
 If returned route distance is decimal.MaxValue (79,228,162,514,264,337,593,543,950,335), there is no connection between airports.
